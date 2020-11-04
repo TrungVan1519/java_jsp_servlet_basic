@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="student_info.jsp">
+		<!-- TextField -->
+		First name: <input type="text" name="firstName"/>
+		<br/>
+		Last name: <input type="text" name="lastName"/>
+		<br/>
+		
+		<!-- Dropdown -->
+		Country: 
+		<select name="country">
+			<option> Brazil </option>
+			<option> France </option>
+			<option> England </option>
+		</select> 
+		
+		<br/>
+		<!-- RadioButton -->
+		Gender:
+		<input type="radio" name="gender" value="boy"/> Boy
+		<input type="radio" name="gender" value="girl"/> Girl
+		
+		<br/>
+		<!-- Checkbox -->
+		Favorite program languages:
+		<input type="checkbox" name="favoriteLanguage" value="Java"/> Java
+		<input type="checkbox" name="favoriteLanguage" value="CSharp"/> C#
+		<input type="checkbox" name="favoriteLanguage" value="Python"/> Python
+		<input type="checkbox" name="favoriteLanguage" value="Javascript"/> Javascript
+		
+		<br/>
+		<!-- Button -->
+		<input type="submit" value="Click to confirm"/>
+	</form>
+</body>
+</html>
